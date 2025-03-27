@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#drop-area {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    background: white;
+    cursor: pointer;
+}
+
+#drop-area:hover {
+    background: #f0f8ff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
