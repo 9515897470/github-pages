@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="drop-area">
+        <h2>Drag & Drop Files Here</h2>
+        <p>or click to select files</p>
+        <input type="file" id="fileInput" multiple hidden>
+    </div>
+    <ul id="file-list"></ul>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-storage.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
